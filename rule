@@ -1,0 +1,1 @@
+rule1 on TXultimate#Channel do var1 %value% endon on TXultimate#Action=Short do if (var1<=3) Power1 2 ELSEIF (3<var1<=6) Power2 2 ELSE Power3 2 endif endon
